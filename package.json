@@ -1,6 +1,6 @@
 {
   "name": "127-ssh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Capture your command not found and tries to ssh",
   "homepage": "https://github.com/romainberger/127-ssh",
   "author":{
