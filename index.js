@@ -11,6 +11,7 @@ module.exports = function(command) {
       , sshExist = data.match(pattern)
 
     if (sshExist) {
+      console.log('Command not found: '+command)
       console.log('SSH Host "'+command+'" found')
       spawn('ssh', [command], {stdio: 'inherit'})
     }
