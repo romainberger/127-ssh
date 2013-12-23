@@ -4,7 +4,7 @@ Capture your command not found errors and tries to ssh.
 
 ## Installation
 
-To use 127-ssh you need to use zsh (or maybe not, but you'll need something similar to zsh's `TRAPZERR()` hook) and node.
+To use 127-ssh you need to use zsh and node.
 
 Start by installing the package with npm:
 
