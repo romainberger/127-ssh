@@ -13,8 +13,9 @@ Start by installing the package with npm:
 Then in your `~/.zshrc` add this:
 
     command_not_found_handler () {
-        printf "Command not found: $1"
-        127-ssh $1
+        if type "127-ssh" > /dev/null; then
+            127-ssh $1
+        fi
         return 127
     }
 
