@@ -25,6 +25,17 @@ For 127-ssh to work, you need to use an ssh config file kept in `~/.ssh/config` 
 
 Whenever you type something in your prompt that exit as a command not found, the script will work. It tries to find an ssh configuration with a `Host` corresponding to the command you typed.
 
+Let's say you want to ssh into your `coolserver` but you forgot to type `ssh` you'll get:
+
+    $ coolserver
+    zsh: command not found: coolserver
+
+With 127-ssh:
+
+    $ coolserver
+    SSH Host "coolserver" found
+    user@coolserver.com's password:
+
 # LICENSE
 
 MIT
