@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var pjson   = require('./../package.json')
+  , lib     = require('./../index')
+  , command = typeof process.argv[2] !== 'undefined' ? process.argv[2] : ''
+
+if (command == '--v' || command == '-version') {
+  console.log(pjson.version)
+}
+else {
+  lib(command)
+}
