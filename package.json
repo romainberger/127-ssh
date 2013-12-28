@@ -1,9 +1,9 @@
 {
   "name": "127-ssh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Capture your command not found and tries to ssh",
   "homepage": "https://github.com/romainberger/127-ssh",
-  "author":{
+  "author": {
     "name": "Romain Berger",
     "email": "romain@romainberger.com",
     "url": "http://romainberger.com"
@@ -13,8 +13,8 @@
     "url": "git@github.com:romainberger/127-ssh.git"
   },
   "bugs": {
-    "url" : "https://github.com/romainberger/127-ssh/issues",
-    "email" : "romain@romainberger.com"
+    "url": "https://github.com/romainberger/127-ssh/issues",
+    "email": "romain@romainberger.com"
   },
   "main": "index.js",
   "bin": {
