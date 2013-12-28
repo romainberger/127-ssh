@@ -7,7 +7,7 @@ module.exports = function(command) {
   fs.readFile(homePath+'/.ssh/config', 'utf8', function(err, data) {
     if (err) process.exit()
 
-    var pattern  = new RegExp("Host "+command, "g")
+    var pattern  = new RegExp("Host "+command+"\n", "g")
       , sshExist = data.match(pattern)
 
     if (sshExist) {
